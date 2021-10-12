@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 
+
 <html>
 
   <head>
     <title>Ways of Seeing</title>
     
     <style>
+      body {
+      width: 100vw;
+      height: 100vh;
+      }
 
+      img {
+        transition: filter .5s ease-in-out;
+        -webkit-filter: grayscale(0%); 
+        filter: grayscale(0%);
+        max-width: 100%;
+        height: auto;
+        width: auto; 
+      }
+      img:hover {
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%); 
+      }
     </style>
 
     
@@ -15,7 +32,25 @@
   <body style="background-color:burlywood;">
     
     <center><h1 style="font-size:50px;font-family:Helvetica;color:ivory">Homework 2</h2></center>
-    <main><img src="https://cdn.theatlantic.com/thumbor/yMsH4zM4mwH-Wox7SGU0WGwLHmw=/1x416:2999x2102/1952x1098/media/img/2018/03/AP_413517775098/original.jpg" width="501" height="900" >
+      
+    <main>
+      
+    <div>
+      <div>
+        <img src = "https://github.com/njk326/webdev/blob/main/week3/img/b-1.jpg?raw=true" width="501" height="900" style="float:left" title="men act while women appear" >
+        <img src = "https://github.com/njk326/webdev/blob/main/week3/img/c-1.jpg?raw=true" width="322" height="792" style="float:left;top:108px;position:relative" >
+        <img src = "https://github.com/njk326/webdev/blob/main/week3/img/c-2.jpg?raw=true" width="338" height="900" style="float:left" title="posession is the ultimate goal" >
+        <img src = "https://github.com/njk326/webdev/blob/main/week3/img/c-3.jpg?raw=true" width="322" height="792" style="float:left;top:108px;position:relative" >
+        <img src = "https://github.com/njk326/webdev/blob/main/week3/img/d-1.jpg?raw=true" width="520" height="900" style="float:left;clear:right" title="by and for the male spectator" >
+      </div>
+      <div>
+          <img src = "https://github.com/njk326/webdev/blob/main/week3/img/b-2.jpg?raw=true" width="256" height="900" style="clear:left;float:left" title="the">
+          <img src = "https://github.com/njk326/webdev/blob/main/week3/img/b-3.jpg?raw=true" width="300" height="900" style="float:left" title="creator's" >
+          <img src = "https://github.com/njk326/webdev/blob/main/week3/img/c-4.jpg?raw=true" width="1600" height="900" style="float:left" title="way">
+          <img src = "https://github.com/njk326/webdev/blob/main/week3/img/d-2.jpg?raw=true" width="300" height="900" style="float:left" title="of">
+          <img src = "https://github.com/njk326/webdev/blob/main/week3/img/d-3.jpg?raw=true" width="288" height="900" style="float:left" title="seeing">
+      </div>
+    </div>
 
     </main>
   </body>
