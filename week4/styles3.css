@@ -1,0 +1,31 @@
+h1{
+    font-family: Helvetica;
+    text-align:center;
+}
+h3{
+    font-family: Helvetica;
+    text-align:center;
+}
+.left-column {
+    float: left;
+    width: 30%;
+    border: thick double black;
+    text-align:justify;
+    padding: 15px;
+}
+.center-image {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    max-width: 27%;
+    border: 4mm ridge grey;
+    height: auto;
+    width: auto
+}
+.right-column {
+    float: left;
+    width: 30%;
+    border: thick double black;
+    text-align:justify;
+    padding: 15px;
+}
