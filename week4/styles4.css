@@ -1,6 +1,111 @@
-head {
+*{
+    position: absolute
+}
+.head {
+    top: 200px;
+    bottom: 0px;
+    right: 0px;
+    left: 400px;
+    height: 500px;
+    width: 340px;
+    background-color: #f0cd9a;
+    border-radius:50% 50% 80% 80%;
+}
+
+.eye-l {
+    top: 350px;
+    left: 425px;
     height: 100px;
     width: 100px;
-    background-color: #F1C27D;
-    border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    border-radius:50%;
 }
+
+.iris-l {
+    top: 355px;
+    left: 435px;
+    height: 50px;
+    width: 50px;
+    background-color: #654321;
+    border-radius:50%;
+}
+.eye-r {
+    top: 350px;
+    left: 600px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    border-radius:50%;
+}
+.ear-r{
+    top: 400px;
+    left: 700px;
+    height: 60px;
+    width: 120px;
+    transform: rotate(90deg);
+    border-radius: 150px 150px 0 0;
+    background-color: #d3af79;    
+}
+.ear-l{
+    top: 400px;
+    left: 320px;
+    height: 60px;
+    width: 120px;
+    transform: rotate(-90deg);
+    border-radius: 150px 150px 0 0;
+    background-color: #d3af79;    
+}
+.iris-r {
+    top: 355px;
+    left: 610px;
+    height: 50px;
+    width: 50px;
+    background-color: #654321;
+    border-radius:50%;
+}
+.nose {
+    top: 440px;
+    left: 535px;
+    height: 0;
+    width: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 75px solid #d3af79;
+}
+.mouth{
+    top: 560px;
+    left: 490px;
+    height: 75px;
+    width: 150px;
+    transform: rotate(180deg);
+    border-radius: 150px 150px 0 0;
+    background-color: rgb(241, 133, 133);    
+}
+.hair{
+    top: 150px;
+    left: 380px;
+    height: 150px;
+    width: 280px;
+    transform: rotate(-20deg);
+    border-radius: 250px 250px 0px 80px;
+    background-color: rgb(7, 7, 7);    
+}
+.hair2{
+    top: 250px;
+    left: 410px;
+    height: 80px;
+    width: 270px;
+    transform: rotate(-25deg);
+    border-radius: 8px 0px 250px 250px;
+    background-color: rgb(7, 7, 7);    
+}
+.hair3{
+    top: 225px;
+    left: 600px;
+    height: 80px;
+    width: 170px;
+    transform: rotate(60deg);
+    border-radius: 40% 50%;
+    background-color: rgb(7, 7, 7);    
+}
+
