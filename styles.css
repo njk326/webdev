@@ -1,0 +1,71 @@
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    color:rgb(46, 46, 46);
+    text-decoration: none;
+
+  }
+  .background1, .background2 {
+    position: relative;
+    opacity: 0.75;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .background1 {
+    background-image: url("https://github.com/njk326/webdev/blob/main/resources/wallpaper1.jpg?raw=true");
+    min-height: 100%;
+  }
+  .background2 {
+    background-image: url("https://github.com/njk326/webdev/blob/main/resources/wallpaper.jpg?raw=true");
+    min-height: 400px;
+  }
+  .title{
+    position:absolute;
+    left: 0px;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+  }
+  .title span.border {
+    color: #fff;
+    padding: 5px;
+    border-width: 5px;
+    font-size: 100px;
+    border-style: solid;
+  }
+  .subtitle{
+    position:absolute;
+    padding: 5px;
+    left: 0px;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+  }
+  .subtitle span.border {
+    color: #fff;
+    font-size: 30px;
+  }
+  .content {
+    color: rgb(46, 46, 46);
+    background-color: white;
+    text-align: center;
+  }
+  .links {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 150px;
+  }
+
+  .links span.border {
+    background-color: white;
+    color:rgb(46, 46, 46);
+    font-size: 50px;
+    padding: 15px;
+  }
