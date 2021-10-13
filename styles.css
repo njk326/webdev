@@ -1,15 +1,14 @@
-
-  body, html {
+body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  a {
+}
+a {
     color:rgb(46, 46, 46);
     text-decoration: none;
 
-  }
-  .background1, .background2 {
+}
+.background1, .background2 {
     position: relative;
     opacity: 0.75;   
     background-attachment: fixed;
@@ -17,7 +16,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .background1 {
+.background1 {
     background-image: url("https://github.com/njk326/webdev/blob/main/resources/wallpaper1.jpg?raw=true");
     min-height: 100%;
   }
