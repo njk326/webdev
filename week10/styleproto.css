@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family:Garamond, Georgia, serif;
+
+}
+
+#title {
+    position: absolute;
+    font-family:Garamond, Georgia, serif;
+    text-align: center;
+    font-size: 4vw;
+    top: 30%;
+    left: 24%;
+}
+
+#quote {
+    position: absolute;
+    font-family:Garamond, Georgia, serif;
+    text-align: center;
+    font-size: 1.5vw;
+    top: 55%;
+    left: 60%;
+}
+
+#boris {
+    position: absolute;
+    font-family:Garamond, Georgia, serif;
+    text-align: center;
+    font-size: 2vw;
+    top: 65%;
+    left: 75%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.5vh;
+    height: 1.5vh;
+    border-radius: 50%;
+    background: rgb(29, 29, 29);
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 20vw;
+    border: 15px solid rgb(29, 29, 29);
+    border-radius: 50%;
+    background: white;
+}
+
+.clock:before { 
+    content: '';
+    position: absolute;
+    top: calc(50% - 1%);
+    left: 50%;
+    width: 42%;
+    height: 2%;
+    background: rgb(29, 29, 29);
+    animation: animate 8s linear infinite;
+    transform-origin: left;
+}
+
+.clock:after { 
+    content: '';
+    position: absolute;
+    top: calc(50% - 1%);
+    left: 50%;
+    width: 25%;
+    height: 2%;
+    background: rgb(29, 29, 29);
+    animation: animate 30s linear infinite;
+    transform-origin: left;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
